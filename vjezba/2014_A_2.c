@@ -25,6 +25,7 @@ int main()
     {
         int f = 1;
         for (i=1;i<=br;i++) f*=(broj%10);
+        br--;
         broj/=10;
 
         suma+=f;
